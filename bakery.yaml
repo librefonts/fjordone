@@ -1,0 +1,5 @@
+commit: HEAD
+process_files: [FjordOne-Regular.ttf.ttx, src/FjordOne-Regular.otf.ttx, src/FjordOne-Regular-TTD.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
